@@ -33,10 +33,10 @@ https://doi.org/10.1109/NQComp68334.2026.11497715
 https://scholar.google.com/citations?user=5ZXE5m0AAAAJ
 
 ### ResearchGate
-(Add your ResearchGate profile link)
+((https://www.researchgate.net/profile/Pratyush-Patel-4?ev=hdr_xprf))
 
 ### ORCID
-(Add your ORCID link)
+(https://orcid.org/my-orcid?orcid=0009-0004-0536-1902)
 
 ---
 
