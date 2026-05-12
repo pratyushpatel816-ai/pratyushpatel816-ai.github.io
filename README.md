@@ -16,14 +16,14 @@ Undergraduate researcher with interests in:
 ### 1. A Comparative Study of Quantum Key Distribution and Physical Layer Key Generation for Secure Communication
 
 DOI:
-https://doi.org/10.1109/NQComp68334.2026.11497650
+[View Paper](https://doi.org/...)
 
 ---
 
 ### 2. Development of Quantum-Ready Digital Wallet using Blockchain by Integrating Post-Quantum Cryptography
 
 DOI:
-https://doi.org/10.1109/NQComp68334.2026.11497715
+[View Paper](https://doi.org/...)
 
 ---
 
