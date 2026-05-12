@@ -30,13 +30,13 @@ https://doi.org/10.1109/NQComp68334.2026.11497715
 ## Research Profiles
 
 ### Google Scholar
-https://scholar.google.com/citations?user=5ZXE5m0AAAAJ
+[Google Scholar](https://scholar.google.com/citations?user=5ZXE5m0AAAAJ)
 
 ### ResearchGate
-((https://www.researchgate.net/profile/Pratyush-Patel-4?ev=hdr_xprf))
+[ResearchGate](https://www.researchgate.net/profile/...)
 
 ### ORCID
-(https://orcid.org/my-orcid?orcid=0009-0004-0536-1902)
+[ORCID](https://orcid.org/...)
 
 ---
 
