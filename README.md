@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="mqhy3uvIXoUum22tdH4rGREywJ5kK-Tm2i3Xzsuk9Vo" />
 # Pratyush Patel
 
 ## Quantum Computing Researcher | IEEE Author
