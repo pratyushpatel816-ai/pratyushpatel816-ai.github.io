@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pratyushpatel816-ai.github.io/sitemap.xml
