@@ -3,312 +3,611 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Verification -->
-    <meta name="google-site-verification" content="mqhy3uvIXoUum22tdH4rGREywJ5kK-Tn2i3Xzsuk9Vo" />
+<!-- Google Verification -->
+<meta name="google-site-verification" content="mqhy3uvIXoUum22tdH4rGREywJ5kK-Tn2i3Xzsuk9Vo" />
 
-    <!-- SEO -->
-    <title>Pratyush Patel | Quantum Computing Researcher | IEEE Author</title>
+<title>Pratyush Patel | Quantum Computing Researcher | IEEE Author</title>
 
-    <meta name="description"
-        content="Pratyush Patel is an undergraduate Quantum Computing Researcher and IEEE Author specializing in Quantum Cryptography, Cybersecurity, Blockchain Security, Artificial Intelligence, and Post-Quantum Cryptography.">
+<meta name="description"
+content="Pratyush Patel - IEEE Author, Quantum Computing Researcher, AI/ML Enthusiast, Cybersecurity and Post-Quantum Cryptography Researcher from PIEMR Indore.">
 
-    <meta name="keywords"
-        content="Pratyush Patel, Quantum Computing, IEEE Author, Quantum Cryptography, Cybersecurity, Blockchain Security, Artificial Intelligence, AI Research, Post Quantum Cryptography">
+<meta name="keywords"
+content="Pratyush Patel, PIEMR, Quantum Computing, IEEE Author, Artificial Intelligence, Cybersecurity, Blockchain Security, Quantum Cryptography">
 
-    <meta name="author" content="Pratyush Patel">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Pratyush Patel | Quantum Computing Researcher">
-    <meta property="og:description"
-        content="IEEE Author | Quantum Computing | AI Research | Cybersecurity | Blockchain Security">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pratyushpatel816-ai.github.io/">
+<style>
 
-    <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f9;
-            color: #222;
-            line-height: 1.6;
-        }
+body{
+font-family:'Poppins',sans-serif;
+background:#020617;
+color:white;
+line-height:1.7;
+overflow-x:hidden;
+}
 
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
+/* NAVBAR */
 
-        .hero {
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(to right, #0f172a, #1e293b);
-            color: white;
-            border-radius: 15px;
-            margin-top: 20px;
-        }
+nav{
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;
+left:0;
+background:rgba(2,6,23,0.92);
+backdrop-filter:blur(8px);
+z-index:1000;
+}
 
-        .hero img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            margin-bottom: 20px;
-        }
+nav h1{
+font-size:24px;
+color:#38bdf8;
+}
 
-        h1 {
-            margin: 10px 0;
-            font-size: 42px;
-        }
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
 
-        h2 {
-            color: #0f172a;
-            margin-top: 40px;
-        }
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
 
-        .hero h2 {
-            color: #ffffff;
-            font-weight: normal;
-        }
+nav ul li a:hover{
+color:#38bdf8;
+}
 
-        .card {
-            background: white;
-            padding: 25px;
-            margin-top: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
-        }
+/* HERO */
 
-        ul {
-            padding-left: 20px;
-        }
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:120px 20px 60px;
+background:
+linear-gradient(rgba(2,6,23,0.88), rgba(2,6,23,0.92)),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+}
 
-        li {
-            margin-bottom: 10px;
-        }
+.hero img.profile{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #38bdf8;
+margin-bottom:25px;
+box-shadow:0px 0px 35px rgba(56,189,248,0.6);
+}
 
-        a {
-            color: #2563eb;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.hero h1{
+font-size:65px;
+margin-bottom:10px;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+.hero h2{
+font-size:28px;
+color:#38bdf8;
+font-weight:400;
+margin-bottom:20px;
+}
 
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            color: #555;
-        }
+.hero p{
+max-width:900px;
+font-size:18px;
+color:#cbd5e1;
+}
 
-        .badge {
-            display: inline-block;
-            background: #2563eb;
-            color: white;
-            padding: 8px 14px;
-            border-radius: 20px;
-            margin: 5px;
-            font-size: 14px;
-        }
+/* BUTTONS */
 
-    </style>
+.buttons{
+margin-top:35px;
+}
+
+.buttons a{
+display:inline-block;
+margin:10px;
+padding:14px 28px;
+background:#38bdf8;
+color:#020617;
+text-decoration:none;
+font-weight:600;
+border-radius:40px;
+transition:0.3s;
+}
+
+.buttons a:hover{
+background:white;
+transform:translateY(-4px);
+}
+
+/* SECTION */
+
+.section{
+padding:90px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:#0f172a;
+padding:30px;
+border-radius:24px;
+border:1px solid rgba(255,255,255,0.05);
+transition:0.3s;
+box-shadow:0px 5px 18px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0px 15px 30px rgba(56,189,248,0.15);
+}
+
+.card h3{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+/* PIEMR */
+
+.piemr{
+text-align:center;
+}
+
+.piemr img{
+max-width:300px;
+margin-bottom:25px;
+}
+
+/* MENTOR */
+
+.mentor{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+gap:40px;
+}
+
+.mentor img{
+width:260px;
+border-radius:20px;
+border:4px solid #38bdf8;
+}
+
+.mentor-text{
+max-width:650px;
+}
+
+.mentor-text h3{
+font-size:34px;
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:16px;
+justify-content:center;
+}
+
+.skill{
+padding:14px 24px;
+background:#38bdf8;
+color:#020617;
+font-weight:600;
+border-radius:35px;
+}
+
+/* LINKS */
+
+.links{
+text-align:center;
+}
+
+.links a{
+display:inline-block;
+margin:12px;
+padding:14px 24px;
+background:#0f172a;
+color:#38bdf8;
+border:1px solid #38bdf8;
+text-decoration:none;
+border-radius:35px;
+font-weight:600;
+transition:0.3s;
+}
+
+.links a:hover{
+background:#38bdf8;
+color:#020617;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:35px;
+border-top:1px solid rgba(255,255,255,0.08);
+color:#94a3b8;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero h2{
+font-size:22px;
+}
+
+.section-title{
+font-size:32px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-    <div class="container">
+<!-- NAVBAR -->
 
-        <!-- HERO SECTION -->
+<nav>
 
-        <div class="hero">
+<h1>Pratyush Patel</h1>
 
-            <!-- Upload your image in repository and name it photo.jpg -->
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#mentor">Mentor</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-            <img src="pratyush-patel-quantum-computing.jpg" alt="Pratyush Patel">
+</nav>
 
-            <h1>Pratyush Patel</h1>
+<!-- HERO -->
 
-            <h2>Quantum Computing Researcher | IEEE Author</h2>
+<section class="hero">
 
-            <p>
-                Undergraduate researcher focused on Quantum Computing,
-                Artificial Intelligence, Quantum Cryptography,
-                Blockchain Security, Cybersecurity,
-                and Post-Quantum Cryptography.
-            </p>
+<img src="photo.jpg" alt="Pratyush Patel" class="profile">
 
-        </div>
+<h1>Pratyush Patel</h1>
 
-        <!-- ABOUT -->
+<h2>Quantum Computing Researcher | IEEE Author</h2>
 
-        <div class="card">
+<p>
 
-            <h2>About Me</h2>
+B.Tech 1st Year Computer Science Engineering Student from
+Prestige Institute Of Engineering Management And Research (PIEMR), Indore, MP.
 
-            <p>
-                I am an undergraduate researcher and IEEE author with interests in
-                Quantum Computing, AI-driven systems, Blockchain Security,
-                Quantum Cryptography, and secure communication technologies.
-                I actively work on research projects involving Artificial Intelligence,
-                Post-Quantum Cryptography, and advanced cybersecurity systems.
-            </p>
+Focused on Quantum Computing, Artificial Intelligence,
+Quantum Cryptography, Cybersecurity,
+Blockchain Security and Post-Quantum Cryptography.
 
-        </div>
+</p>
 
-        <!-- PROJECTS -->
+<div class="buttons">
 
-        <div class="card">
+<a href="https://github.com/pratyushpatel816-ai" target="_blank">GitHub</a>
 
-            <h2>AI & Research Projects</h2>
+<a href="https://www.linkedin.com/in/pratyush-patel-586056377/" target="_blank">LinkedIn</a>
 
-            <ul>
+<a href="mailto:pratyushpatel816@gmail.com">Contact</a>
 
-                <li>
-                    <strong>AI Guided Bio Inspired Acoustic Tracking Localisation and Target Lock</strong><br>
-                    Intelligent acoustic surveillance system inspired by biological hearing mechanisms using AI and signal processing.
-                </li>
+</div>
 
-                <li>
-                    <strong>Quantum Ready Digital Wallet using Blockchain and Post-Quantum Cryptography</strong><br>
-                    Blockchain-based digital wallet integrated with post-quantum cryptographic security systems.
-                </li>
+</section>
 
-                <li>
-                    <strong>Quantum Key Distribution and Physical Layer Security Research</strong><br>
-                    Research focused on secure communication using QKD and physical layer security mechanisms.
-                </li>
+<!-- ABOUT -->
 
-            </ul>
+<section class="section" id="about">
 
-        </div>
+<h2 class="section-title">About Me</h2>
 
-        <!-- PUBLICATIONS -->
+<div class="card">
 
-        <div class="card">
+<p>
 
-            <h2>IEEE Publications</h2>
+I am an undergraduate IEEE author and aspiring researcher passionate about
+Quantum Computing, AI Security Systems,
+Blockchain Security and Post-Quantum Cryptography.
 
-            <ol>
+My goal is to contribute to advanced secure intelligent systems and pursue
+higher studies and research at globally leading institutions.
 
-                <li>
-                    A Comparative Study of Quantum Key Distribution and Physical Layer Key Generation for Secure Communication
-                    <br><br>
+</p>
 
-                    <a href="https://doi.org/10.1109/NQComp68334.2026.11497650" target="_blank">
-                        View Paper
-                    </a>
-                </li>
+</div>
 
-                <br>
+</section>
 
-                <li>
-                    Development of Quantum-Ready Digital Wallet using Blockchain by Integrating Post-Quantum Cryptography
-                    <br><br>
+<!-- PIEMR -->
 
-                    <a href="https://doi.org/10.1109/NQComp68334.2026.11497715" target="_blank">
-                        View Paper
-                    </a>
-                </li>
+<section class="section piemr">
 
-            </ol>
+<h2 class="section-title">My Institution</h2>
 
-        </div>
+<img src="piemr-logo.png" alt="PIEMR Logo">
 
-        <!-- SKILLS -->
+<div class="card">
 
-        <div class="card">
+<h3>Prestige Institute Of Engineering Management And Research</h3>
 
-            <h2>Skills</h2>
+<p>
 
-            <span class="badge">Quantum Computing</span>
-            <span class="badge">Python</span>
-            <span class="badge">Artificial Intelligence</span>
-            <span class="badge">Cybersecurity</span>
-            <span class="badge">Blockchain Security</span>
-            <span class="badge">Quantum Cryptography</span>
-            <span class="badge">Post-Quantum Cryptography</span>
+Prestige Institute Of Engineering Management And Research (PIEMR),
+Indore, Madhya Pradesh.
 
-        </div>
+Currently pursuing B.Tech 1st Year in Computer Science Engineering (CSE).
 
-        <!-- RESEARCH PROFILES -->
+</p>
 
-        <div class="card">
+</div>
 
-            <h2>Research Profiles</h2>
+</section>
 
-            <ul>
+<!-- PROJECTS -->
 
-                <li>
-                    <a href="https://scholar.google.com/citations?user=5ZXE5m0AAAAJ" target="_blank">
-                        Google Scholar
-                    </a>
-                </li>
+<section class="section" id="projects">
 
-                <li>
-                    <a href="https://www.researchgate.net/profile/Pratyush-Patel-4" target="_blank">
-                        ResearchGate
-                    </a>
-                </li>
+<h2 class="section-title">AI & Research Projects</h2>
 
-                <li>
-                    <a href="https://orcid.org/0009-0004-0536-1902" target="_blank">
-                        ORCID
-                    </a>
-                </li>
+<div class="cards">
 
-                <li>
-                    <a href="https://github.com/pratyushpatel816-ai" target="_blank">
-                        GitHub
-                    </a>
-                </li>
+<div class="card">
 
-                <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                        LinkedIn
-                    </a>
-                </li>
+<h3>AI Guided Acoustic Tracking</h3>
 
-            </ul>
+<p>
 
-        </div>
+AI-guided bio-inspired acoustic tracking,
+localisation and target locking system using
+MFCC voice analysis and intelligent signal processing.
 
-        <!-- CONTACT -->
+</p>
 
-        <div class="card">
+</div>
 
-            <h2>Contact</h2>
+<div class="card">
 
-            <p>
-                Email:
-                <a href="mailto:pratyushpatel816@gmail.com">
-                    pratyushpatel816@gmail.com
-                </a>
-            </p>
+<h3>Quantum Ready Digital Wallet</h3>
 
-        </div>
+<p>
 
-        <!-- FOOTER -->
+Blockchain-powered digital wallet integrated with
+Post-Quantum Cryptography for secure future-ready transactions.
 
-        <div class="footer">
+</p>
 
-            <p>
-                © 2026 Pratyush Patel | Quantum Computing Research Portfolio
-            </p>
+</div>
 
-        </div>
+<div class="card">
 
-    </div>
+<h3>Quantum Key Distribution Research</h3>
+
+<p>
+
+Research focused on secure communication systems using
+Quantum Key Distribution and Physical Layer Security.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PUBLICATIONS -->
+
+<section class="section">
+
+<h2 class="section-title">IEEE Publications</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Quantum Key Distribution Study</h3>
+
+<p>
+
+A Comparative Study of Quantum Key Distribution
+and Physical Layer Key Generation for Secure Communication.
+
+</p>
+
+<br>
+
+<a href="https://doi.org/10.1109/NQComp68334.2026.11497650"
+target="_blank"
+style="color:#38bdf8;">
+
+View DOI
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Quantum Ready Wallet Research</h3>
+
+<p>
+
+Development of Quantum-Ready Digital Wallet using Blockchain
+by Integrating Post-Quantum Cryptography.
+
+</p>
+
+<br>
+
+<a href="https://doi.org/10.1109/NQComp68334.2026.11497715"
+target="_blank"
+style="color:#38bdf8;">
+
+View DOI
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MENTOR -->
+
+<section class="section" id="mentor">
+
+<h2 class="section-title">Mentorship</h2>
+
+<div class="mentor">
+
+<img src="mentor.jpg" alt="Dr Yogesh Pandya">
+
+<div class="mentor-text">
+
+<h3>Dr. Yogesh Pandya</h3>
+
+<p>
+
+M.Tech IIT Bombay, PhD IIT Indore
+
+</p>
+
+<br>
+
+<p>
+
+Guided and mentored under the leadership of
+Dr. Yogesh Pandya in research and technical exploration
+across Quantum Computing, Secure Communication Systems,
+Artificial Intelligence and Cybersecurity.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section class="section">
+
+<h2 class="section-title">Skills & Technologies</h2>
+
+<div class="skills">
+
+<div class="skill">Quantum Computing</div>
+<div class="skill">Artificial Intelligence</div>
+<div class="skill">Python</div>
+<div class="skill">Cybersecurity</div>
+<div class="skill">Quantum Cryptography</div>
+<div class="skill">Blockchain Security</div>
+<div class="skill">Post-Quantum Cryptography</div>
+<div class="skill">Signal Processing</div>
+
+</div>
+
+</section>
+
+<!-- LINKS -->
+
+<section class="section">
+
+<h2 class="section-title">Research Profiles</h2>
+
+<div class="links">
+
+<a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+
+<a href="https://www.researchgate.net/" target="_blank">ResearchGate</a>
+
+<a href="https://orcid.org/" target="_blank">ORCID</a>
+
+<a href="https://github.com/pratyushpatel816-ai" target="_blank">GitHub</a>
+
+<a href="https://linkedin.com/in/pratyush-patel-586056377/" target="_blank">LinkedIn</a>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="section" id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="links">
+
+<a href="mailto:pratyushpatel816@gmail.com">
+pratyushpatel816@gmail.com
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Pratyush Patel | Quantum Computing Research Portfolio
+
+</footer>
 
 </body>
 
