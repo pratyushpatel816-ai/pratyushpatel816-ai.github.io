@@ -3,13 +3,10 @@
 
 <head>
 
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<!-- GOOGLE VERIFICATION -->
-<meta name="google-site-verification"
-content="mqhy3uvIXoUum22tdH4rGREywJ5kK-Tn2i3Xzsuk9Vo" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
 <!-- SEO -->
 
@@ -21,13 +18,16 @@ Pratyush Patel | IEEE Author & Quantum Computing Researcher
 content="Pratyush Patel is an IEEE Author and Quantum Computing Researcher focused on Artificial Intelligence, Quantum Cryptography, Cybersecurity, Blockchain Security and Post-Quantum Cryptography.">
 
 <meta name="keywords"
-content="Pratyush Patel, Quantum Computing, IEEE Author, PIEMR, Artificial Intelligence, Quantum Cryptography, Cybersecurity, Blockchain Security, Quantum Security, Post Quantum Cryptography, AI Research">
+content="Pratyush Patel, Quantum Computing, IEEE Author, PIEMR, Artificial Intelligence, Quantum Cryptography, Cybersecurity, Blockchain Security, AI Research">
 
-<meta name="author" content="Pratyush Patel">
+<meta name="author"
+content="Pratyush Patel">
 
-<meta name="robots" content="index, follow">
+<meta name="robots"
+content="index, follow">
 
-<meta name="googlebot" content="index, follow">
+<link rel="canonical"
+href="https://pratyushpatel816-ai.github.io/">
 
 <!-- OPEN GRAPH -->
 
@@ -37,7 +37,8 @@ content="Pratyush Patel | IEEE Author & Quantum Computing Researcher">
 <meta property="og:description"
 content="Quantum Computing | Artificial Intelligence | Cybersecurity | IEEE Research">
 
-<meta property="og:type" content="website">
+<meta property="og:type"
+content="website">
 
 <meta property="og:url"
 content="https://pratyushpatel816-ai.github.io/">
@@ -45,32 +46,13 @@ content="https://pratyushpatel816-ai.github.io/">
 <meta property="og:image"
 content="https://pratyushpatel816-ai.github.io/pratyush-patel-quantum-computing.jpg">
 
-<!-- TWITTER -->
-
-<meta name="twitter:card"
-content="summary_large_image">
-
-<meta name="twitter:title"
-content="Pratyush Patel | IEEE Author & Quantum Computing Researcher">
-
-<meta name="twitter:description"
-content="Quantum Computing | Artificial Intelligence | Cybersecurity | IEEE Research">
-
-<meta name="twitter:image"
-content="https://pratyushpatel816-ai.github.io/pratyush-patel-quantum-computing.jpg">
-
-<!-- CANONICAL -->
-
-<link rel="canonical"
-href="https://pratyushpatel816-ai.github.io/">
-
 <!-- FAVICON -->
 
 <link rel="icon"
 type="image/png"
 href="piemr-quantum-computing.jpg">
 
-<!-- GOOGLE FONTS -->
+<!-- FONT -->
 
 <link rel="preconnect"
 href="https://fonts.googleapis.com">
@@ -79,12 +61,7 @@ href="https://fonts.googleapis.com">
 href="https://fonts.gstatic.com"
 crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
-rel="stylesheet">
-
-<!-- AOS -->
-
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
 rel="stylesheet">
 
 <!-- STRUCTURED DATA -->
@@ -114,19 +91,22 @@ rel="stylesheet">
     "Quantum Cryptography",
     "Cybersecurity",
     "Blockchain Security",
-    "Post Quantum Cryptography",
-    "Secure Communication Systems"
+    "Post Quantum Cryptography"
   ]
 }
 </script>
 
 <style>
 
+/* RESET */
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-scroll-behavior:smooth;
+
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
 }
 
 html{
@@ -135,29 +115,21 @@ scroll-behavior:smooth;
 
 body{
 
-font-family:'Space Grotesk',sans-serif;
+font-family:'Inter',sans-serif;
 
-background:
-
-radial-gradient(circle at top left,
-rgba(56,189,248,0.15),
-transparent 30%),
-
-radial-gradient(circle at bottom right,
-rgba(168,85,247,0.12),
-transparent 30%),
-
-#020617;
+background:#020617;
 
 color:white;
-overflow-x:hidden;
+
 line-height:1.7;
+
+overflow-x:hidden;
 }
 
-/* CUSTOM SCROLLBAR */
+/* SCROLLBAR */
 
 ::-webkit-scrollbar{
-width:10px;
+width:8px;
 }
 
 ::-webkit-scrollbar-track{
@@ -169,51 +141,29 @@ background:#38bdf8;
 border-radius:20px;
 }
 
-/* CURSOR GLOW */
-
-.cursor-glow{
-
-position:fixed;
-
-width:320px;
-height:320px;
-
-background:
-radial-gradient(circle,
-rgba(56,189,248,0.18),
-transparent 70%);
-
-border-radius:50%;
-
-pointer-events:none;
-
-transform:translate(-50%,-50%);
-
-filter:blur(40px);
-
-z-index:0;
-
-mix-blend-mode:screen;
-}
-
 /* NAVBAR */
 
 nav{
 
 position:fixed;
+
 top:0;
+
+left:0;
 
 width:100%;
 
 padding:18px 8%;
 
 display:flex;
+
 justify-content:space-between;
+
 align-items:center;
 
-background:rgba(2,6,23,0.72);
+background:rgba(2,6,23,0.88);
 
-backdrop-filter:blur(18px);
+backdrop-filter:blur(10px);
 
 border-bottom:1px solid rgba(255,255,255,0.05);
 
@@ -223,25 +173,32 @@ z-index:1000;
 nav h1{
 
 font-size:24px;
-font-weight:700;
+
+font-weight:800;
+
 color:#38bdf8;
 }
 
 nav ul{
 
 display:flex;
+
 gap:28px;
+
 list-style:none;
 }
 
 nav ul li a{
 
 text-decoration:none;
+
 color:white;
 
 font-weight:500;
 
-transition:all 0.45s cubic-bezier(0.22,1,0.36,1);
+transition:
+color 0.25s ease,
+transform 0.25s ease;
 }
 
 nav ul li a:hover{
@@ -256,8 +213,11 @@ color:#38bdf8;
 min-height:100vh;
 
 display:flex;
+
 flex-direction:column;
+
 justify-content:center;
+
 align-items:center;
 
 text-align:center;
@@ -266,130 +226,110 @@ padding:140px 20px 80px;
 
 background:
 
-linear-gradient(rgba(2,6,23,0.86),
-rgba(2,6,23,0.94)),
+linear-gradient(
+rgba(2,6,23,0.82),
+rgba(2,6,23,0.92)
+),
 
 url('piemr-campus-quantum-computing.jpg');
 
 background-size:cover;
-background-position:center;
-background-attachment:fixed;
 
-position:relative;
-overflow:hidden;
+background-position:center;
 }
 
 .profile{
 
-width:240px;
-height:240px;
+width:220px;
 
-object-fit:cover;
+height:220px;
 
 border-radius:50%;
 
-border:5px solid rgba(56,189,248,0.9);
+object-fit:cover;
 
-box-shadow:
-
-0 0 30px rgba(56,189,248,0.4),
-0 0 70px rgba(56,189,248,0.18);
+border:4px solid #38bdf8;
 
 margin-bottom:30px;
 
-animation:float 6s ease-in-out infinite;
+transform:translateZ(0);
 
-transition:all 0.5s cubic-bezier(0.22,1,0.36,1);
+will-change:transform;
+
+transition:
+transform 0.3s ease,
+border-color 0.3s ease;
 }
 
 .profile:hover{
 
-transform:scale(1.03);
-}
-
-@keyframes float{
-
-0%{
-transform:translateY(0px);
-}
-
-50%{
-transform:translateY(-12px);
-}
-
-100%{
-transform:translateY(0px);
-}
-
+transform:translateY(-4px);
 }
 
 .hero h1{
 
-font-size:74px;
-font-weight:700;
+font-size:72px;
 
-margin-bottom:12px;
+font-weight:800;
+
+margin-bottom:10px;
+
+letter-spacing:-2px;
 }
 
 .hero h2{
 
-font-size:30px;
-font-weight:400;
+font-size:28px;
+
+font-weight:500;
 
 color:#38bdf8;
 
-margin-bottom:25px;
+margin-bottom:24px;
 }
 
 .hero p{
 
-max-width:950px;
+max-width:920px;
 
 font-size:18px;
 
-color:#dbeafe;
+color:#cbd5e1;
 }
 
 /* BUTTONS */
 
 .buttons{
-margin-top:35px;
+
+margin-top:36px;
 }
 
 .buttons a{
 
 display:inline-block;
 
-padding:14px 30px;
+padding:14px 28px;
+
 margin:10px;
 
-background:
-linear-gradient(135deg,
-#38bdf8,
-#0ea5e9);
-
-color:#020617;
+border-radius:40px;
 
 text-decoration:none;
 
 font-weight:700;
 
-border-radius:40px;
+background:#38bdf8;
 
-box-shadow:
-0 10px 30px rgba(56,189,248,0.3);
+color:#020617;
 
-transition:all 0.45s cubic-bezier(0.22,1,0.36,1);
+transition:
+transform 0.25s ease,
+background 0.25s ease;
 }
 
 .buttons a:hover{
 
-transform:
-translateY(-6px)
-scale(1.04);
-
-box-shadow:
-0 20px 40px rgba(56,189,248,0.45);
+transform:translateY(-4px);
 
 background:white;
 }
@@ -397,55 +337,55 @@ background:white;
 /* SECTION */
 
 .section{
+
 padding:110px 10%;
-position:relative;
-z-index:1;
 }
 
 .section-title{
 
 text-align:center;
 
-font-size:46px;
+font-size:44px;
+
+font-weight:800;
 
 margin-bottom:60px;
 
 color:#38bdf8;
+
+letter-spacing:-1px;
 }
 
-/* GLASS CARD */
+/* CARD */
 
 .card{
 
-background:rgba(15,23,42,0.52);
+background:#0f172a;
 
-backdrop-filter:blur(20px);
+padding:34px;
 
-padding:35px;
+border-radius:24px;
 
-border-radius:28px;
+border:1px solid rgba(255,255,255,0.05);
 
-border:1px solid rgba(255,255,255,0.08);
+transition:
+transform 0.28s ease,
+border-color 0.28s ease;
 
-box-shadow:
+will-change:transform;
 
-0 10px 40px rgba(0,0,0,0.35),
-0 0 30px rgba(56,189,248,0.08);
-
-transition:all 0.45s cubic-bezier(0.22,1,0.36,1);
+transform:translateZ(0);
 }
 
 .card:hover{
 
-transform:
-translateY(-12px)
-scale(1.02);
+transform:translateY(-6px);
 
-box-shadow:
-
-0 20px 50px rgba(56,189,248,0.18),
-0 0 60px rgba(56,189,248,0.12);
+border-color:
+rgba(56,189,248,0.4);
 }
+
+/* GRID */
 
 .cards{
 
@@ -454,14 +394,12 @@ display:grid;
 grid-template-columns:
 repeat(auto-fit,minmax(320px,1fr));
 
-gap:30px;
+gap:28px;
 }
 
 /* PIEMR */
 
 .piemr{
-
-position:relative;
 
 text-align:center;
 
@@ -470,37 +408,35 @@ padding:130px 10%;
 background:
 
 linear-gradient(
-rgba(2,6,23,0.82),
-rgba(2,6,23,0.92)),
+rgba(2,6,23,0.84),
+rgba(2,6,23,0.92)
+),
 
 url('piemr-campus-quantum-computing.jpg');
 
 background-size:cover;
+
 background-position:center;
-background-attachment:fixed;
 }
 
 .piemr img{
 
-max-width:280px;
-
-margin-bottom:35px;
+max-width:260px;
 
 background:white;
 
-padding:18px;
+padding:16px;
 
-border-radius:24px;
+border-radius:20px;
 
-box-shadow:
-0 10px 40px rgba(0,0,0,0.45);
+margin-bottom:32px;
 
-transition:all 0.5s ease;
+transition:transform 0.3s ease;
 }
 
 .piemr img:hover{
 
-transform:scale(1.04);
+transform:translateY(-4px);
 }
 
 /* MENTOR */
@@ -508,9 +444,11 @@ transform:scale(1.04);
 .mentor{
 
 display:flex;
+
 flex-wrap:wrap;
 
 justify-content:center;
+
 align-items:center;
 
 gap:50px;
@@ -518,21 +456,18 @@ gap:50px;
 
 .mentor img{
 
-width:290px;
+width:280px;
 
 border-radius:24px;
 
-border:4px solid rgba(56,189,248,0.8);
+border:4px solid #38bdf8;
 
-box-shadow:
-0 10px 40px rgba(0,0,0,0.4);
-
-transition:all 0.5s ease;
+transition:transform 0.3s ease;
 }
 
 .mentor img:hover{
 
-transform:scale(1.03);
+transform:translateY(-5px);
 }
 
 .mentor-text{
@@ -544,9 +479,11 @@ max-width:650px;
 
 font-size:36px;
 
+font-weight:700;
+
 color:#38bdf8;
 
-margin-bottom:12px;
+margin-bottom:10px;
 }
 
 /* TIMELINE */
@@ -554,29 +491,28 @@ margin-bottom:12px;
 .timeline{
 
 max-width:900px;
+
 margin:auto;
 }
 
 .timeline-item{
 
-background:rgba(15,23,42,0.55);
-
-backdrop-filter:blur(18px);
+background:#0f172a;
 
 padding:28px;
 
-margin-bottom:24px;
+border-left:4px solid #38bdf8;
 
-border-left:5px solid #38bdf8;
+border-radius:16px;
 
-border-radius:18px;
+margin-bottom:22px;
 
-transition:all 0.45s ease;
+transition:transform 0.28s ease;
 }
 
 .timeline-item:hover{
 
-transform:translateX(8px);
+transform:translateX(6px);
 }
 
 /* SKILLS */
@@ -584,6 +520,7 @@ transform:translateX(8px);
 .skills{
 
 display:flex;
+
 flex-wrap:wrap;
 
 justify-content:center;
@@ -593,12 +530,9 @@ gap:18px;
 
 .skill{
 
-padding:14px 26px;
+padding:14px 24px;
 
-background:
-linear-gradient(135deg,
-#38bdf8,
-#0ea5e9);
+background:#38bdf8;
 
 color:#020617;
 
@@ -606,14 +540,12 @@ font-weight:700;
 
 border-radius:40px;
 
-transition:all 0.4s ease;
+transition:transform 0.25s ease;
 }
 
 .skill:hover{
 
-transform:
-translateY(-5px)
-scale(1.05);
+transform:translateY(-4px);
 }
 
 /* FAQ */
@@ -621,14 +553,13 @@ scale(1.05);
 .faq{
 
 max-width:900px;
+
 margin:auto;
 }
 
 .faq-item{
 
-background:rgba(15,23,42,0.55);
-
-backdrop-filter:blur(18px);
+background:#0f172a;
 
 padding:28px;
 
@@ -636,17 +567,18 @@ border-radius:20px;
 
 margin-bottom:22px;
 
-transition:all 0.45s ease;
+transition:transform 0.28s ease;
 }
 
 .faq-item:hover{
 
-transform:translateY(-8px);
+transform:translateY(-5px);
 }
 
 /* LINKS */
 
 .links{
+
 text-align:center;
 }
 
@@ -654,17 +586,15 @@ text-align:center;
 
 display:inline-block;
 
-margin:10px;
+padding:14px 24px;
 
-padding:14px 26px;
+margin:10px;
 
 border-radius:40px;
 
-background:rgba(15,23,42,0.5);
+background:#0f172a;
 
-backdrop-filter:blur(16px);
-
-border:1px solid rgba(56,189,248,0.4);
+border:1px solid rgba(56,189,248,0.35);
 
 color:#38bdf8;
 
@@ -672,34 +602,35 @@ text-decoration:none;
 
 font-weight:700;
 
-transition:all 0.45s cubic-bezier(0.22,1,0.36,1);
+transition:
+transform 0.25s ease,
+background 0.25s ease,
+color 0.25s ease;
 }
 
 .links a:hover{
 
+transform:translateY(-4px);
+
 background:#38bdf8;
 
 color:#020617;
-
-transform:
-translateY(-6px)
-scale(1.03);
 }
 
 /* FOOTER */
 
 footer{
 
-padding:45px;
+padding:40px;
 
 text-align:center;
 
-border-top:1px solid rgba(255,255,255,0.08);
+border-top:1px solid rgba(255,255,255,0.06);
 
 color:#94a3b8;
 }
 
-/* MOBILE */
+/* RESPONSIVE */
 
 @media(max-width:768px){
 
@@ -716,19 +647,21 @@ font-size:34px;
 }
 
 .profile{
-width:190px;
-height:190px;
+width:180px;
+height:180px;
 }
 
 nav{
 
 flex-direction:column;
-gap:15px;
+
+gap:16px;
 }
 
 nav ul{
 
 flex-wrap:wrap;
+
 justify-content:center;
 }
 
@@ -739,8 +672,6 @@ justify-content:center;
 </head>
 
 <body>
-
-<div class="cursor-glow"></div>
 
 <!-- NAVBAR -->
 
@@ -772,18 +703,17 @@ justify-content:center;
 
 <img src="pratyush-patel-quantum-computing.jpg"
 alt="Pratyush Patel Quantum Computing Researcher"
-class="profile"
-data-aos="zoom-in">
+class="profile">
 
-<h1 data-aos="fade-up">
+<h1>
 Pratyush Patel
 </h1>
 
-<h2 data-aos="fade-up" data-aos-delay="100">
+<h2>
 IEEE Author & Quantum Computing Researcher
 </h2>
 
-<p data-aos="fade-up" data-aos-delay="200">
+<p>
 
 B.Tech 1st Year Computer Science Engineering Student at
 Prestige Institute Of Engineering Management And Research (PIEMR), Indore, MP.
@@ -794,7 +724,7 @@ Blockchain Security and Post-Quantum Cryptography.
 
 </p>
 
-<div class="buttons" data-aos="fade-up" data-aos-delay="300">
+<div class="buttons">
 
 <a href="https://github.com/pratyushpatel816-ai"
 target="_blank">
@@ -823,8 +753,7 @@ Contact
 <!-- ABOUT -->
 
 <section class="section"
-id="about"
-data-aos="fade-up">
+id="about">
 
 <h2 class="section-title">
 About Me
@@ -855,15 +784,14 @@ and pursue advanced research at globally leading institutions.
 <!-- INSTITUTION -->
 
 <section class="section piemr"
-id="institution"
-data-aos="fade-up">
+id="institution">
 
 <h2 class="section-title">
 My Institution
 </h2>
 
 <img src="piemr-quantum-computing.jpg"
-alt="Prestige Institute Of Engineering Management And Research PIEMR Logo">
+alt="PIEMR Logo">
 
 <div class="card">
 
@@ -911,17 +839,13 @@ Visit PIEMR Official Website
 <section class="section"
 id="projects">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 AI & Research Projects
-
 </h2>
 
 <div class="cards">
 
-<div class="card"
-data-aos="fade-up">
+<div class="card">
 
 <h3>
 AI Guided Acoustic Tracking
@@ -939,9 +863,7 @@ MFCC voice analysis and intelligent signal processing.
 
 </div>
 
-<div class="card"
-data-aos="fade-up"
-data-aos-delay="100">
+<div class="card">
 
 <h3>
 Quantum Ready Digital Wallet
@@ -958,9 +880,7 @@ Post-Quantum Cryptography for future-ready secure transactions.
 
 </div>
 
-<div class="card"
-data-aos="fade-up"
-data-aos-delay="200">
+<div class="card">
 
 <h3>
 Quantum Key Distribution Research
@@ -986,17 +906,13 @@ Quantum Key Distribution and Physical Layer Security.
 <section class="section"
 id="publications">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 IEEE Publications
-
 </h2>
 
 <div class="cards">
 
-<div class="card"
-data-aos="fade-up">
+<div class="card">
 
 <h3>
 Quantum Key Distribution Study
@@ -1023,9 +939,7 @@ View DOI
 
 </div>
 
-<div class="card"
-data-aos="fade-up"
-data-aos-delay="100">
+<div class="card">
 
 <h3>
 Quantum Ready Wallet Research
@@ -1061,21 +975,16 @@ View DOI
 <section class="section"
 id="mentor">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Mentorship
-
 </h2>
 
 <div class="mentor">
 
 <img src="yogesh-pandya-quantum-computing.jpg"
-alt="Dr Yogesh Pandya Quantum Computing Mentor"
-data-aos="zoom-in">
+alt="Dr Yogesh Pandya">
 
-<div class="mentor-text"
-data-aos="fade-left">
+<div class="mentor-text">
 
 <h3>
 Dr. Yogesh Pandya
@@ -1135,17 +1044,13 @@ ResearchGate
 
 <section class="section">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Research Timeline
-
 </h2>
 
 <div class="timeline">
 
-<div class="timeline-item"
-data-aos="fade-right">
+<div class="timeline-item">
 
 <h3>
 2026 — IEEE Publication
@@ -1159,9 +1064,7 @@ Quantum Key Distribution and Secure Communication Research.
 
 </div>
 
-<div class="timeline-item"
-data-aos="fade-right"
-data-aos-delay="100">
+<div class="timeline-item">
 
 <h3>
 2026 — Quantum Wallet Research
@@ -1175,9 +1078,7 @@ Post-Quantum Cryptography integrated blockchain wallet development.
 
 </div>
 
-<div class="timeline-item"
-data-aos="fade-right"
-data-aos-delay="200">
+<div class="timeline-item">
 
 <h3>
 2026 — AI Guided Acoustic Tracking
@@ -1199,11 +1100,8 @@ Bio-inspired intelligent localisation and target locking system.
 
 <section class="section">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Skills & Technologies
-
 </h2>
 
 <div class="skills">
@@ -1232,17 +1130,13 @@ Skills & Technologies
 
 <section class="section">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Research FAQ
-
 </h2>
 
 <div class="faq">
 
-<div class="faq-item"
-data-aos="fade-up">
+<div class="faq-item">
 
 <h3>
 What is Quantum Key Distribution?
@@ -1259,9 +1153,7 @@ using quantum mechanics for encryption key exchange.
 
 </div>
 
-<div class="faq-item"
-data-aos="fade-up"
-data-aos-delay="100">
+<div class="faq-item">
 
 <h3>
 What is Post Quantum Cryptography?
@@ -1278,9 +1170,7 @@ to attacks from future quantum computers.
 
 </div>
 
-<div class="faq-item"
-data-aos="fade-up"
-data-aos-delay="200">
+<div class="faq-item">
 
 <h3>
 What research areas is Pratyush Patel working on?
@@ -1306,11 +1196,8 @@ Blockchain Security and Secure Communication Systems.
 
 <section class="section">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Research Profiles
-
 </h2>
 
 <div class="links">
@@ -1359,11 +1246,8 @@ LinkedIn
 <section class="section"
 id="contact">
 
-<h2 class="section-title"
-data-aos="fade-up">
-
+<h2 class="section-title">
 Contact
-
 </h2>
 
 <div class="links">
@@ -1389,62 +1273,6 @@ pratyushpatel816@gmail.com
 Last Updated: May 2026
 
 </footer>
-
-<!-- AOS SCRIPT -->
-
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-<script>
-
-AOS.init({
-
-duration:1200,
-once:true
-
-});
-
-</script>
-
-<!-- LENIS SMOOTH SCROLL -->
-
-<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
-
-<script>
-
-const lenis = new Lenis({
-
-duration:1.2,
-smoothWheel:true
-
-});
-
-function raf(time){
-
-lenis.raf(time);
-
-requestAnimationFrame(raf);
-
-}
-
-requestAnimationFrame(raf);
-
-</script>
-
-<!-- CURSOR GLOW -->
-
-<script>
-
-const glow = document.querySelector('.cursor-glow');
-
-document.addEventListener('mousemove', e => {
-
-glow.style.left = e.clientX + 'px';
-
-glow.style.top = e.clientY + 'px';
-
-});
-
-</script>
 
 </body>
 
