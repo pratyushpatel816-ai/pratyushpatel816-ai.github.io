@@ -1,0 +1,21 @@
+Site: Pratyush Patel Research Portfolio
+
+Focus:
+Quantum Computing
+Artificial Intelligence
+Quantum Cryptography
+Secure Communication Systems
+
+Author:
+Pratyush Patel
+
+Institution:
+Prestige Institute Of Engineering Management And Research (PIEMR), Indore
+
+Mentor:
+Dr. Yogesh Pandya
+
+Links:
+https://pratyushpatel816-ai.github.io
+https://github.com/pratyushpatel816-ai
+https://www.researchgate.net/profile/Pratyush-Patel-4
