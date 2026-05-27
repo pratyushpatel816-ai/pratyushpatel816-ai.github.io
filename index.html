@@ -83,7 +83,7 @@ crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
 rel="stylesheet">
 
-<!-- AOS -->
+<!-- AOS Animation -->
 
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
 rel="stylesheet">
@@ -151,6 +151,15 @@ line-height:1.8;
 overflow-x:hidden;
 }
 
+body::-webkit-scrollbar{
+width:8px;
+}
+
+body::-webkit-scrollbar-thumb{
+background:#2563eb;
+border-radius:10px;
+}
+
 a{
 text-decoration:none;
 color:inherit;
@@ -180,7 +189,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 background:rgba(5,8,22,0.85);
-backdrop-filter:blur(14px);
+backdrop-filter:blur(16px);
 z-index:1000;
 border-bottom:1px solid rgba(255,255,255,0.05);
 }
@@ -188,6 +197,7 @@ border-bottom:1px solid rgba(255,255,255,0.05);
 .logo{
 font-size:1.2rem;
 font-weight:700;
+letter-spacing:1px;
 }
 
 .nav-links{
@@ -198,7 +208,7 @@ gap:24px;
 .nav-links a{
 font-size:0.95rem;
 color:#cbd5e1;
-transition:0.3s;
+transition:0.3s ease;
 }
 
 .nav-links a:hover{
@@ -249,7 +259,12 @@ object-fit:cover;
 margin:auto;
 margin-bottom:30px;
 border:4px solid rgba(255,255,255,0.08);
-box-shadow:0 0 40px rgba(37,99,235,0.45);
+box-shadow:0 0 50px rgba(37,99,235,0.55);
+transition:0.4s ease;
+}
+
+.hero img:hover{
+transform:scale(1.03);
 }
 
 h1{
@@ -278,18 +293,19 @@ flex-wrap:wrap;
 padding:14px 28px;
 border-radius:12px;
 font-weight:600;
-transition:0.3s;
+transition:0.3s ease;
 display:inline-block;
 }
 
 .btn-primary{
 background:#2563eb;
 color:white;
+box-shadow:0 0 25px rgba(37,99,235,0.4);
 }
 
 .btn-primary:hover{
 background:#1d4ed8;
-transform:translateY(-2px);
+transform:translateY(-3px);
 }
 
 .btn-secondary{
@@ -299,6 +315,7 @@ border:1px solid rgba(255,255,255,0.08);
 
 .btn-secondary:hover{
 background:rgba(255,255,255,0.08);
+transform:translateY(-3px);
 }
 
 h2{
@@ -317,12 +334,13 @@ border:1px solid rgba(255,255,255,0.05);
 padding:35px;
 border-radius:24px;
 backdrop-filter:blur(12px);
-transition:0.3s;
+transition:0.35s ease;
 }
 
 .card:hover{
-transform:translateY(-4px);
+transform:translateY(-6px);
 border-color:#2563eb55;
+box-shadow:0 0 35px rgba(37,99,235,0.15);
 }
 
 .grid{
@@ -347,11 +365,12 @@ flex-wrap:wrap;
 padding:12px 18px;
 background:rgba(255,255,255,0.05);
 border-radius:10px;
-transition:0.3s;
+transition:0.3s ease;
 }
 
 .socials a:hover{
 background:#2563eb;
+transform:translateY(-2px);
 }
 
 footer{
@@ -392,6 +411,8 @@ height:150px;
 
 <body>
 
+<!-- NAVBAR -->
+
 <nav>
 
 <div class="logo">
@@ -404,13 +425,14 @@ Pratyush Patel
 <a href="#research">Research</a>
 <a href="#projects">Projects</a>
 <a href="#publications">Publications</a>
-<a href="#institute">Institute</a>
 <a href="#mentor">Mentor</a>
 <a href="#contact">Contact</a>
 
 </div>
 
 </nav>
+
+<!-- HERO -->
 
 <section class="hero">
 
@@ -426,7 +448,7 @@ Pratyush Patel | Quantum Computing & AI Research
 
 <p>
 
-B.Tech Computer Science Engineering student at Prestige Institute Of Engineering Management And Research (PIEMR), Indore exploring Quantum Computing, Artificial Intelligence, Quantum Cryptography and Secure Communication Systems through projects, research papers and technical learning.
+B.Tech Computer Science Engineering student at Prestige Institute Of Engineering Management And Research (PIEMR), Indore exploring Quantum Computing, Artificial Intelligence, Quantum Cryptography and Secure Communication Systems through projects, IEEE publications and continuous technical learning.
 
 </p>
 
@@ -472,15 +494,17 @@ ORCID
 
 </section>
 
+<!-- ABOUT -->
+
 <section id="about">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 About Me
 </h2>
 
-<div class="card">
+<div class="card" data-aos="fade-up">
 
 <p>
 
@@ -500,11 +524,13 @@ I have been exploring these domains through IEEE publications, technical reading
 
 </section>
 
+<!-- RESEARCH -->
+
 <section id="research">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 Research Interests
 </h2>
 
@@ -518,7 +544,7 @@ Quantum Computing
 
 <p>
 
-Exploring Quantum Communication, Quantum Key Distribution and secure quantum-safe systems.
+Exploring Quantum Communication, Quantum Key Distribution, Quantum Security and secure quantum-safe systems.
 
 </p>
 
@@ -532,7 +558,7 @@ Artificial Intelligence
 
 <p>
 
-Interested in intelligent systems, AI-based acoustic tracking and signal processing systems.
+Interested in intelligent systems, AI-based acoustic tracking and intelligent signal processing systems.
 
 </p>
 
@@ -546,7 +572,7 @@ Cybersecurity
 
 <p>
 
-Learning about secure communication systems and Post-Quantum Cryptography.
+Learning about cryptography, secure communication systems, blockchain security and Post-Quantum Cryptography.
 
 </p>
 
@@ -558,11 +584,13 @@ Learning about secure communication systems and Post-Quantum Cryptography.
 
 </section>
 
+<!-- PROJECTS -->
+
 <section id="projects">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 Research Projects
 </h2>
 
@@ -616,11 +644,13 @@ Studying Quantum Key Distribution concepts and secure communication methodologie
 
 </section>
 
+<!-- PUBLICATIONS -->
+
 <section id="publications">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 IEEE Publications
 </h2>
 
@@ -654,99 +684,13 @@ DOI: 10.1109/NQComp68334.2026.11497650
 
 </section>
 
-<section id="institute">
-
-<div class="container">
-
-<h2>
-Institute
-</h2>
-
-<div class="card"
-style="
-position:relative;
-overflow:hidden;
-padding:0;
-min-height:420px;
-display:flex;
-align-items:center;
-justify-content:center;
-">
-
-<img
-src="piemr-campus-quantum-computing.webp"
-alt="PIEMR Campus"
-style="
-position:absolute;
-width:100%;
-height:100%;
-object-fit:cover;
-top:0;
-left:0;
-opacity:0.28;
-">
-
-<div
-style="
-position:relative;
-z-index:2;
-padding:50px;
-text-align:center;
-">
-
-<img
-src="piemr-quantum-computing.webp"
-alt="PIEMR Logo"
-style="
-width:180px;
-margin:auto;
-margin-bottom:25px;
-">
-
-<h3
-style="
-font-size:1.7rem;
-margin-bottom:18px;
-">
-
-Prestige Institute Of Engineering Management And Research
-
-</h3>
-
-<p
-style="
-max-width:850px;
-margin:auto;
-">
-
-An Autonomous Institute Approved by AICTE & UGC New Delhi, DTE Govt. of M.P. Bhopal & Affiliated to RGPV, Bhopal MP.
-
-</p>
-
-<br>
-
-<a
-href="https://piemr.edu.in/"
-target="_blank"
-class="btn btn-primary">
-
-Visit Official Website
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
+<!-- MENTOR -->
 
 <section id="mentor">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 Research Mentorship
 </h2>
 
@@ -801,11 +745,13 @@ ResearchGate
 
 </section>
 
+<!-- CONTACT -->
+
 <section id="contact">
 
 <div class="container">
 
-<h2>
+<h2 data-aos="fade-up">
 Contact
 </h2>
 
@@ -839,6 +785,8 @@ An Autonomous Institute Approved by AICTE & UGC New Delhi, DTE Govt. of M.P. Bho
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
 <p>
@@ -847,7 +795,11 @@ An Autonomous Institute Approved by AICTE & UGC New Delhi, DTE Govt. of M.P. Bho
 
 </footer>
 
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- AOS -->
+
+<script
+src="https://unpkg.com/aos@2.3.4/dist/aos.js">
+</script>
 
 <script>
 AOS.init({
