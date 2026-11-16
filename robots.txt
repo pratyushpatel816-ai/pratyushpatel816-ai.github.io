@@ -1,30 +1,32 @@
+# Public portfolio crawling policy
 User-agent: *
 Allow: /
 
+# Search crawlers
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: GPTBot
-Allow: /
-
+# AI search / retrieval crawlers
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: anthropic-ai
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
+# Google-Extended is a separate control for certain Google AI uses;
+# it is not required for Google Search indexing.
 User-agent: Google-Extended
 Allow: /
 
