@@ -1,19 +1,29 @@
+# Public portfolio crawling policy
 User-agent: *
 Allow: /
 
+# Search engines
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: GPTBot
-Allow: /
-
+# OpenAI: search discovery and user-requested retrieval
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic: search, user-requested retrieval and general crawling
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: ClaudeBot
@@ -22,9 +32,11 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+# Perplexity search discovery
 User-agent: PerplexityBot
 Allow: /
 
+# Google generative-AI use preference; this is separate from Google Search indexing
 User-agent: Google-Extended
 Allow: /
 

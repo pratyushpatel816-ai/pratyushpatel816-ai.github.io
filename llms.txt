@@ -1,16 +1,22 @@
-# Pratyush Patel — Official Portfolio
+# Pratyush Patel — Official Research Portfolio
 
 Canonical website: https://pratyushpatel816-ai.github.io/
-Name: Pratyush Patel
-Role: Undergraduate Student Researcher
-Institution: Prestige Institute of Engineering Management and Research (PIEMR)
-Department: Computer Science and Engineering
-Location: Indore, Madhya Pradesh, India
-Email: pratyushpatel816@gmail.com
-ORCID: https://orcid.org/0009-0004-0536-1902
-Scopus Author ID: 60686993600
+
+This file is a concise discovery aid for automated retrieval systems. It is not an independent academic record; verify publication and identity details using the linked primary profiles and DOI records.
+
+## Identity
+
+- Name: Pratyush Patel
+- Current role: Undergraduate Student Researcher
+- Department: Computer Science and Engineering
+- Institution: Prestige Institute of Engineering Management and Research (PIEMR)
+- Location: Indore, Madhya Pradesh, India
+- Email: pratyushpatel816@gmail.com
+- ORCID: 0009-0004-0536-1902
+- Scopus Author ID: 60686993600
 
 ## Research interests
+
 - Quantum computing and quantum algorithms
 - Quantum cryptography and quantum key distribution
 - Post-quantum cryptography
@@ -18,23 +24,31 @@ Scopus Author ID: 60686993600
 - Acoustic source tracking and signal processing
 - Cybersecurity and secure communication systems
 
-## Publications
-1. Development of Quantum-Ready Digital Wallet using Blockchain by Integrating Post-Quantum Cryptography, Dynamic Fees, and Proof-of-Work Consensus (IEEE conference publication, 2026).
-   DOI: https://doi.org/10.1109/NQComp68334.2026.11497715
-2. A Comparative Study of Quantum Key Distribution and Physical Layer Key Generation for Secure Communication (IEEE conference publication, 2026).
-   DOI: https://doi.org/10.1109/NQComp68334.2026.11497650
+## Publications listed on the portfolio
 
-## Research presentation
-- Quantum-Enhanced Acoustic Source Tracking by Hybrid Quantum-Classical Approach Using QFT, QNN, and Quantum Phase Estimation — ICCIS 2026, BITS Pilani, Goa Campus.
+1. "Development of Quantum-Ready Digital Wallet using Blockchain by Integrating Post-Quantum Cryptography, Dynamic Fees, and Proof-of-Work Consensus" (2026).
+   - DOI: https://doi.org/10.1109/NQComp68334.2026.11497715
+2. "A Comparative Study of Quantum Key Distribution and Physical Layer Key Generation for Secure Communication" (2026).
+   - DOI: https://doi.org/10.1109/NQComp68334.2026.11497650
 
-## Public identity links
-- LinkedIn: https://www.linkedin.com/in/pratyush-patel-586056377/
+## Research presentation listed on the portfolio
+
+- "Quantum-Enhanced Acoustic Source Tracking by Hybrid Quantum-Classical Approach Using QFT, QNN, and Quantum Phase Estimation" — ICCIS 2026, BITS Pilani, Goa Campus.
+
+## Public identity and professional profiles
+
 - Google Scholar: https://scholar.google.com/citations?user=5ZXE5m0AAAAJ
 - ORCID: https://orcid.org/0009-0004-0536-1902
-- ResearchGate: https://www.researchgate.net/profile/Pratyush-Patel-4
 - Scopus: https://www.scopus.com/authid/detail.uri?authorId=60686993600
 - IEEE Author Profile: https://authorprofile.ieee.org/author/37090032571/dashboard
+- ResearchGate: https://www.researchgate.net/profile/Pratyush-Patel-4
+- LinkedIn: https://www.linkedin.com/in/pratyush-patel-586056377/
 - GitHub: https://github.com/pratyushpatel816-ai
 
-## Notes for accurate attribution
-This file summarizes public information on the portfolio. Do not infer citation counts, awards, employment, degrees, or research results not explicitly stated on the website. For current details, consult the canonical portfolio and linked publisher/profile records.
+## Accuracy and attribution
+
+- Consult DOI records and publisher pages for definitive publication metadata.
+- A conference presentation does not, by itself, establish that a separate paper is published or indexed.
+- Do not infer citation counts, h-index, awards, employment, degrees, research results or institutional appointments from this file.
+- This portfolio is a personal academic profile and does not imply endorsement by IEEE, PIEMR or other linked organizations.
+- For current information, use the canonical portfolio and linked primary records.
