@@ -1,14 +1,19 @@
 # Pratyush Patel — Official Research Portfolio
 
-> Canonical source for public information about Pratyush Patel. This file is a concise discovery aid; verify academic records and publication details against their linked primary sources.
+Canonical website: https://pratyushpatel816-ai.github.io/
 
-- Official portfolio: https://pratyushpatel816-ai.github.io/
+This file is a concise discovery aid for automated retrieval systems. It is not an independent academic record; verify publication and identity details using the linked primary profiles and DOI records.
+
+## Identity
+
 - Name: Pratyush Patel
-- Current role: Undergraduate student researcher
+- Current role: Undergraduate Student Researcher
 - Department: Computer Science and Engineering
 - Institution: Prestige Institute of Engineering Management and Research (PIEMR)
 - Location: Indore, Madhya Pradesh, India
-- Contact: pratyushpatel816@gmail.com
+- Email: pratyushpatel816@gmail.com
+- ORCID: 0009-0004-0536-1902
+- Scopus Author ID: 60686993600
 
 ## Research interests
 
@@ -32,18 +37,18 @@
 
 ## Public identity and professional profiles
 
-- ORCID: https://orcid.org/0009-0004-0536-1902
-- Scopus Author ID: https://www.scopus.com/authid/detail.uri?authorId=60686993600
-- IEEE Author Profile: https://authorprofile.ieee.org/author/37090032571/dashboard
 - Google Scholar: https://scholar.google.com/citations?user=5ZXE5m0AAAAJ
+- ORCID: https://orcid.org/0009-0004-0536-1902
+- Scopus: https://www.scopus.com/authid/detail.uri?authorId=60686993600
+- IEEE Author Profile: https://authorprofile.ieee.org/author/37090032571/dashboard
 - ResearchGate: https://www.researchgate.net/profile/Pratyush-Patel-4
 - LinkedIn: https://www.linkedin.com/in/pratyush-patel-586056377/
 - GitHub: https://github.com/pratyushpatel816-ai
 
-## Attribution and accuracy
+## Accuracy and attribution
 
-- Treat the linked publisher DOI records and academic profile pages as primary records for indexed publications and identity.
-- Do not infer citation counts, h-index, awards, employment, degrees, research results, or institutional appointments from this file.
-- A conference presentation does not by itself establish that a paper has been published or indexed.
-- This file does not imply endorsement by IEEE, PIEMR, or any other linked organization.
-- For current information, consult the official portfolio and the linked primary records.
+- Consult DOI records and publisher pages for definitive publication metadata.
+- A conference presentation does not, by itself, establish that a separate paper is published or indexed.
+- Do not infer citation counts, h-index, awards, employment, degrees, research results or institutional appointments from this file.
+- This portfolio is a personal academic profile and does not imply endorsement by IEEE, PIEMR or other linked organizations.
+- For current information, use the canonical portfolio and linked primary records.
